@@ -1,7 +1,11 @@
 :root{
-    --primary-color: rgb(103, 52, 220);
+    --primary-color: rgb(91, 65, 168);
     --dark-grey: #334155;
-    --offwhite : #a1a1aa;
+    --offwhite : #cbd5e1;
+}
+
+body{
+    margin: 0;
 }
 
 hr{
@@ -72,7 +76,7 @@ hr{
 }
 
 .hero{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .hero .hero-img{
@@ -110,6 +114,11 @@ hr{
 
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer .link{
     color: white;
 }
@@ -119,5 +128,9 @@ hr{
 }
 
 .footer .footer-links{
+    text-align: center;
+}
+
+.kuchbhi{
     text-align: center;
 }
